@@ -41,8 +41,18 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Doctor_s_Form newForm = new Doctor_s_Form();
-            newForm.Show();
+            if (this.password != this.confirm_password)
+            {
+                MessageBox.Show("Password mismatch");
+                this.confirm_password = this.textBox4.Text;
+            }
+            else
+            {
+                MessageBox.Show("Registration successful");
+                Doctor_s_Form newForm = new Doctor_s_Form();
+                newForm.Show();
+            }
+          
 
             //if (this.textBox1.Text != string.Empty)
             //{
@@ -92,11 +102,8 @@ namespace WindowsFormsApplication1
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-            this.confirm_password = this.Text;
-            /*if (!this.password.Equals(this.confirm_password))            {
-                MessageBox.Show("Password MisMatch");
-
-            }*/
+            this.confirm_password = this.textBox4.Text;
+            
         }
     }
 }
