@@ -41,6 +41,8 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Doctor_s_Form newForm = new Doctor_s_Form();
+            newForm.Show();
 
             //if (this.textBox1.Text != string.Empty)
             //{
@@ -60,7 +62,7 @@ namespace WindowsFormsApplication1
             //this.Close();
             //mainForm.listBox1.Show();
 
-            MySql.Data.mySqlClient.MySqlConnection conn;
+          /*  MySql.Data.mySqlClient.MySqlConnection conn;
             string connString = "server=127.0.0.1; uid=root;" + "pwd=root; database=cse470_project;";
             try
             {
@@ -71,7 +73,7 @@ namespace WindowsFormsApplication1
 
             catch (Exception exp)
             {
-            }
+            }*/
         }
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -91,10 +93,10 @@ namespace WindowsFormsApplication1
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
             this.confirm_password = this.Text;
-            if (!this.password.Equals(this.confirm_password))            {
+            /*if (!this.password.Equals(this.confirm_password))            {
                 MessageBox.Show("Password MisMatch");
 
-            }
+            }*/
         }
     }
 }
