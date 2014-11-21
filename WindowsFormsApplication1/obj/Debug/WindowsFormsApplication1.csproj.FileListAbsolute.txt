@@ -12,9 +12,31 @@ C:\Users\Samin\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\Wi
 C:\Users\Samin\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form4.resources
 C:\Users\Samin\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Doctor_s_Form.resources
 C:\Users\Samin\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form5.resources
-C:\Users\Samin\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CSE470_database.mdf
-C:\Users\Samin\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CSE470_database_log.ldf
-C:\Users\Samin\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1.mdf
-C:\Users\Samin\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1_log.ldf
-C:\Users\Samin\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\samin.mdf
-C:\Users\Samin\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\samin_log.ldf
+C:\Users\Shan\Documents\GitHub\CSE470_Project\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Shan\Documents\GitHub\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Shan\Documents\GitHub\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Shan\Documents\GitHub\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Doctor_s_Form.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Shan\Documents\GitHub\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Shan\Documents\GitHub\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Shan\Documents\GitHub\CSE470_Project\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Shan\Documents\GitHub\CSE470_Project\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Samin\Documents\Visual Studio 2013\Projects\CSE470_Project\CSE470_Project\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Samin\Documents\Visual Studio 2013\Projects\CSE470_Project\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Samin\Documents\Visual Studio 2013\Projects\CSE470_Project\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Samin\Documents\Visual Studio 2013\Projects\CSE470_Project\CSE470_Project\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Samin\Documents\Visual Studio 2013\Projects\CSE470_Project\CSE470_Project\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Samin\Documents\Visual Studio 2013\Projects\CSE470_Project\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Samin\Documents\Visual Studio 2013\Projects\CSE470_Project\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Doctor_s_Form.resources
+C:\Users\Samin\Documents\Visual Studio 2013\Projects\CSE470_Project\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Samin\Documents\Visual Studio 2013\Projects\CSE470_Project\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\Samin\Documents\Visual Studio 2013\Projects\CSE470_Project\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\Samin\Documents\Visual Studio 2013\Projects\CSE470_Project\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\Samin\Documents\Visual Studio 2013\Projects\CSE470_Project\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\Samin\Documents\Visual Studio 2013\Projects\CSE470_Project\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Samin\Documents\Visual Studio 2013\Projects\CSE470_Project\CSE470_Project\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache

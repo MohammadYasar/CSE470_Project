@@ -15,29 +15,21 @@ namespace WindowsFormsApplication1
         public Doctor_s_Form()
         {
             InitializeComponent();
+            MessageBox.Show("welcome Back!");
         }
-
+        public Doctor_s_Form(String s)
+        {
+            InitializeComponent();
+            MessageBox.Show(s);
+        }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedIndex == 1)
-            {
-                
-            }
-        }
-
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void Doctor_s_Form_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void toolStripContainer1_ContentPanel_Load(object sender, EventArgs e)
-        {
-
+            MessageBox.Show("Welcome!");
         }
     }
 }

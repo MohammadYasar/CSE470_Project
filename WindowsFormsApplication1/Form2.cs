@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data;
 using System.Data.SqlClient;
 
 
@@ -31,7 +30,8 @@ namespace WindowsFormsApplication1
         }
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            // TODO: This line of code loads data into the '_400_data_baseDataSet1.log_info' table. You can move, or remove it, as needed.
+           // this.log_infoTableAdapter.Fill(this._400_data_baseDataSet1.log_info);
         }
 
         private void lblForm2Password_Click(object sender, EventArgs e)
@@ -41,50 +41,33 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (this.password != this.confirm_password)
-            {
-                MessageBox.Show("Password mismatch");
-                this.confirm_password = this.textBox4.Text;
+            SqlConnection con = new SqlConnection(global::WindowsFormsApplication1.Properties.Settings.Default.CSE_470_peraConnectionString);
+            try {
+
+                string sql = "SELECT * from [log_info]";
+                SqlCommand exeSql = new SqlCommand(sql, con);
+                con.Open();
+                SqlDataReader reader = exeSql.ExecuteReader();
+                string val = "";
+                while(reader.Read()){
+                    val = val + reader.GetString(0)+" "+reader.GetString(1);
+                }
+
+                MessageBox.Show(val,"working",MessageBoxButtons.OK,MessageBoxIcon.Information);
+
             }
-            else
-            {
-                MessageBox.Show("Registration successful");
-                Doctor_s_Form newForm = new Doctor_s_Form();
+            catch (Exception en) {
+                MessageBox.Show(en.Message, "working", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            finally {
+                con.Close();
+                String s = "Welcome!";
+                Doctor_s_Form newForm = new Doctor_s_Form(s);
                 newForm.Show();
             }
-          
 
-            //if (this.textBox1.Text != string.Empty)
-            //{
-
-            //    mainForm.listBox1.Items.Clear();
-
-            //    string[] stringsEntered = textBox1.Lines;
-
-            //    for (int count = 0; count < stringsEntered.Length; count++)
-            //    {
-
-            //        mainForm.listBox1.Items.Add(stringsEntered[count]);
-
-            //    }
-
-            //}
-            //this.Close();
-            //mainForm.listBox1.Show();
-
-          /*  MySql.Data.mySqlClient.MySqlConnection conn;
-            string connString = "server=127.0.0.1; uid=root;" + "pwd=root; database=cse470_project;";
-            try
-            {
-                conn = new MySql.Data.MySqlClinet.MySqlConnection();
-                conn.ConnectionString = connString;
-                conn.open();
-            }
-
-            catch (Exception exp)
-            {
-            }*/
         }
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             this.userName = this.textBox1.Text;
@@ -102,8 +85,18 @@ namespace WindowsFormsApplication1
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-            this.confirm_password = this.textBox4.Text;
-            
+            this.confirm_password = this.Text;
+            if (!this.password.Equals(this.confirm_password))            {
+                MessageBox.Show("Password MisMatch");
+
+            }
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+       
     }
 }

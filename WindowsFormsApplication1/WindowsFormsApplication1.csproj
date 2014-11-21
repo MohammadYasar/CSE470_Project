@@ -49,6 +49,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -59,10 +60,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CSE470_databaseDataSet.Designer.cs">
+    <Compile Include="CSE_470_peraDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>CSE470_databaseDataSet.xsd</DependentUpon>
+      <DependentUpon>CSE_470_peraDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CSE_470_peraDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CSE_470_peraDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Doctor%27s_Form.cs">
       <SubType>Form</SubType>
@@ -129,16 +135,27 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="CSE470_databaseDataSet.xsc">
-      <DependentUpon>CSE470_databaseDataSet.xsd</DependentUpon>
+    <None Include="CSE_470_peraDataSet.xsc">
+      <DependentUpon>CSE_470_peraDataSet.xsd</DependentUpon>
     </None>
-    <None Include="CSE470_databaseDataSet.xsd">
+    <None Include="CSE_470_peraDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>CSE470_databaseDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>CSE_470_peraDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="CSE470_databaseDataSet.xss">
-      <DependentUpon>CSE470_databaseDataSet.xsd</DependentUpon>
+    <None Include="CSE_470_peraDataSet.xss">
+      <DependentUpon>CSE_470_peraDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CSE_470_peraDataSet1.xsc">
+      <DependentUpon>CSE_470_peraDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CSE_470_peraDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CSE_470_peraDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CSE_470_peraDataSet1.xss">
+      <DependentUpon>CSE_470_peraDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -152,29 +169,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="CSE470_database.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="CSE470_database_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>CSE470_database.mdf</DependentUpon>
-    </Content>
-    <Content Include="Database1.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database1_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Database1.mdf</DependentUpon>
-    </Content>
-    <Content Include="samin.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="samin_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>samin.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
